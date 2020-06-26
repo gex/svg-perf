@@ -1,0 +1,18 @@
+{
+  "name": "svg-perf",
+  "version": "1.0.0",
+  "repository": "https://github.com/gex/svg-perf.git",
+  "author": "Gergo Szonyi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
