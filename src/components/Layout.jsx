@@ -14,6 +14,9 @@ const Layout = ({ children }) => (
           <li>
             <Link to="/basic-layout">Basic layout</Link>
           </li>
+          <li>
+            <Link to="/mask-elements">Mask elements</Link>
+          </li>
         </ul>
       </nav>
     </header>
