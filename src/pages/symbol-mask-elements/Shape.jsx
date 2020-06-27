@@ -12,14 +12,16 @@ const Shape = ({ height, width }) => (
     id={getElementId('shape', width, height)}
     viewBox={`0 0 ${width * UNIT} ${height * UNIT}`}
   >
-    <BaseShape {...{ width, height }} />
-    <BaseMask {...{ width, height }} />
+    <defs>
+      <BaseShape {...{ width, height }} />
+      <DishShape {...{ width, height }} />
+      <BaseMask {...{ width, height }} />
+      <DishMask {...{ width, height }} />
+    </defs>
     <Unit
       {...{ width, height }}
       mask={`url(#${getElementId('base-mask', width, height)})`}
     />
-    <DishShape {...{ width, height }} />
-    <DishMask {...{ width, height }} />
     <Unit
       {...{ width, height }}
       mask={`url(#${getElementId('dish-mask', width, height)})`}

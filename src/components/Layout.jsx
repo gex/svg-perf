@@ -20,6 +20,11 @@ const Layout = ({ children }) => (
           <li>
             <Link to="/symbol-mask-elements">Symbol and mask elements</Link>
           </li>
+          <li>
+            <Link to="/symbol-clip-path-elements">
+              Symbol and clip path elements
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
