@@ -13,9 +13,29 @@ body {
   font: 1.6rem / 1.5 system-ui;
 }
 
+.animation {
+  text-align: center;
+}
+
 svg {
   background: rgba(128, 128, 128, 0.1);
   border: 1rem solid rgba(128, 128, 128, 0.25);
   height: auto;
   width: 100%;
+}
+
+@keyframes perfTest {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animation svg {
+  animation: perfTest ease-in-out 750ms infinite;
 }

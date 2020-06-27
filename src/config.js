@@ -1,4 +1,4 @@
-const SCALE = 1
+const SCALE = 8
 
 export const UNIT = 19.05 * SCALE
 
