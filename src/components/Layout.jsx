@@ -31,6 +31,9 @@ const Layout = ({ children }) => (
           <li>
             <Link to="/g-path-elements">G and path elements</Link>
           </li>
+          <li>
+            <Link to="/path-elements">Path elements</Link>
+          </li>
         </ul>
       </nav>
     </header>
