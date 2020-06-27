@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "gatsby build",
     "clean": "gatsby clean",
+    "deploy": "gatsby build && vercel",
     "develop": "gatsby develop"
   },
   "dependencies": {
@@ -16,5 +16,8 @@
     "gatsby-transformer-json": "^2.4.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "vercel": "^19.1.1"
   }
 }
