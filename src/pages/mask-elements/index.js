@@ -9,7 +9,7 @@ import BaseMask from './BaseMask'
 import DishMask from './DishMask'
 import Keycap from './Keycap'
 
-const BasicLayout = ({
+const MaskElements = ({
   data: {
     keycaps: { nodes: keycaps }
   }
@@ -21,7 +21,7 @@ const BasicLayout = ({
 
   return (
     <Layout>
-      <h1>Basic Layout</h1>
+      <h1>Mask elements</h1>
       <Svg {...{ width, height }}>
         {shapes.map((shape) => (
           <Fragment key={`masks-${shape.width}-${shape.height}`}>
@@ -37,7 +37,7 @@ const BasicLayout = ({
   )
 }
 
-export default BasicLayout
+export default MaskElements
 
 export const query = graphql`
   query {

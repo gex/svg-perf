@@ -12,7 +12,7 @@ const Layout = ({ children }) => (
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/basic-layout">Basic layout</Link>
+            <Link to="/rect-elements">Rect-elements</Link>
           </li>
           <li>
             <Link to="/mask-elements">Mask elements</Link>

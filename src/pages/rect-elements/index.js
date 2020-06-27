@@ -6,7 +6,7 @@ import Layout from '../../components/Layout'
 import Svg from './Svg'
 import Keycap from './Keycap'
 
-const BasicLayout = ({
+const RectElements = ({
   data: {
     keycaps: { nodes: keycaps }
   }
@@ -16,7 +16,7 @@ const BasicLayout = ({
 
   return (
     <Layout>
-      <h1>Basic Layout</h1>
+      <h1>Rect elements</h1>
       <Svg {...{ width, height }}>
         {keycaps.map((keycap) => (
           <Keycap key={`${keycap.x}-${keycap.y}`} {...keycap} />
@@ -26,7 +26,7 @@ const BasicLayout = ({
   )
 }
 
-export default BasicLayout
+export default RectElements
 
 export const query = graphql`
   query {

@@ -8,7 +8,7 @@ import Svg from './Svg'
 import Shape from './Shape'
 import Keycap from './Keycap'
 
-const BasicLayout = ({
+const SymbolMaskElements = ({
   data: {
     keycaps: { nodes: keycaps }
   }
@@ -20,7 +20,7 @@ const BasicLayout = ({
 
   return (
     <Layout>
-      <h1>Basic Layout</h1>
+      <h1>Symbol and mask elements</h1>
       <Svg {...{ width, height }}>
         {shapes.map((shape) => (
           <Shape key={`shape-${shape.width}-${shape.height}`} {...shape} />
@@ -33,7 +33,7 @@ const BasicLayout = ({
   )
 }
 
-export default BasicLayout
+export default SymbolMaskElements
 
 export const query = graphql`
   query {
