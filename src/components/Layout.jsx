@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import './layout.css'
 
 const Layout = ({ children }) => (
-  <div>
+  <div className="layout">
     <header>
       <h1>SVG Perf</h1>
       <nav>
@@ -46,6 +46,12 @@ const Layout = ({ children }) => (
       </nav>
     </header>
     <main>{children}</main>
+    <footer>
+      <p>
+        made by <a href="https://github.com/gex">gex</a> |{' '}
+        <a href="https://github.com/gex/svg-perf">github repository</a>
+      </p>
+    </footer>
   </div>
 )
 

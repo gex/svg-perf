@@ -11,6 +11,24 @@ html {
 
 body {
   font: 1.6rem / 1.5 system-ui;
+  margin: 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr 5rem;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 2rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.4;
 }
 
 .animation {
@@ -38,4 +56,10 @@ svg {
 
 .animation svg {
   animation: perfTest ease-in-out 750ms infinite;
+}
+
+footer p {
+  line-height: 5rem;
+  margin: 0;
+  text-align: center;
 }
