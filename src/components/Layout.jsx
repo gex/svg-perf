@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './layout.css'
 
 const Layout = ({ children }) => (
   <div>
@@ -9,6 +10,9 @@ const Layout = ({ children }) => (
         <ul>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/basic-layout">Basic layout</Link>
           </li>
         </ul>
       </nav>

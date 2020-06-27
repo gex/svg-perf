@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1.6rem / 1.5 system-ui;
+}
+
+svg {
+  border: 1rem solid #999;
+  height: auto;
+  width: 100%;
+}
