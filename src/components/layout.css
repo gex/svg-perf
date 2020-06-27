@@ -14,7 +14,8 @@ body {
 }
 
 svg {
-  border: 1rem solid #999;
+  background: rgba(128, 128, 128, 0.1);
+  border: 1rem solid rgba(128, 128, 128, 0.25);
   height: auto;
   width: 100%;
 }
