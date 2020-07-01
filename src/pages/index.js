@@ -5,7 +5,7 @@ const Index = () => (
   <Layout>
     <h1>Home</h1>
     <p>
-      <a href="https://gex.github.io/html-perf/">HTML version</a>
+      <a href="https://html-perf.vercel.app">HTML version</a>
     </p>
   </Layout>
 )
